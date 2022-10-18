@@ -6,22 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Name of your awesome camera app -->
     <title>📸 DevCam 2.0</title>
-    <!-- Link to your main style sheet-->
+    <link rel="icon" href="assets/favicon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Camera -->
     <main id="camera">
-      <!-- Camera sensor -->
       <canvas id="camera--sensor"></canvas>
-      <!-- Camera view -->
       <video id="camera--view" autoplay playsinline muted="true"></video>
-      <!-- Camera output -->
       <img src="//:0" alt="" id="camera--output" />
-      <!-- Camera trigger -->
       <button id="camera--trigger">⚪</button>
     </main>
-    <!-- Reference to your JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>
